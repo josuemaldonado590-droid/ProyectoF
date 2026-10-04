@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>7 meses contigo ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         FONDO
+    ========================================== -->
+
+    <div class="fondo">
+
+        <div class="luz luz1"></div>
+        <div class="luz luz2"></div>
+
+        <div class="particulas">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         PORTADA
+    ========================================== -->
+
+    <main id="inicio" class="pantalla inicio">
+
+        <div class="introduccion">
+
+            <div class="corazon-grande">
+                ♥️
+            </div>
+
+            <p class="pequeno">
+                Para Abi
+            </p>
+
+            <h1>
+                7 meses
+            </h1>
+
+            <div class="linea"></div>
+
+            <p class="subtitulo">
+                Hay siete cosas que quería decirte...
+            </p>
+
+            <p class="descripcion">
+                Así que decidí guardarlas en siete sobres.
+            </p>
+
+            <button id="comenzarBtn" class="boton-principal">
+                Abrir los sobres
+                <span>✉️</span>
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================================
+         JARDÍN DE SOBRES
+    ========================================== -->
+
+    <main id="sobresPantalla" class="pantalla sobres-pantalla oculto">
+
+        <div class="encabezado">
+
+            <p class="pequeno">
+                Para ti, Abi
+            </p>
+
+            <h2>
+                Siete sobres
+            </h2>
+
+            <p>
+                Abre cada uno cuando quieras.
+            </p>
+
+            <div id="contador" class="contador">
+                0 / 7 abiertos
+            </div>
+
+        </div>
+
+
+        <!-- =====================================
+             LOS 7 SOBRES
+        ====================================== -->
+
+        <div class="sobres-grid">
+
+
+            <!-- SOBRE 1 -->
+
+            <div class="sobre-wrapper">
+
+                <button
+                    class="sobre"
+                    data-numero="1"
+                    aria-label="Abrir sobre 1">
+
+                    <div class="sobre-parte trasera"></div>
+
+                    <div class="sobre-papel">
+
+                        <div class="contenido-papel">
+
+                            <span class="numero-carta">
+                                01
+                            </span>
+
+                            <h3>
+                                Gracias
+                            </h3>
+
+                            <p>
+                                Gracias por estos siete meses...
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="sobre-solapa"></div>
+
+                    <div class="sobre-frente"></div>
+
+                    <div class="sello">
+                        ♥️
+                    </div>
+
+                    <span class="numero-sobre">
+                        1
+                    </span>
+
+                </button>
+
+                <p class="texto-sobre">
+                    Gracias
+                </p>
+
+            </div>
+
+
+            <!-- SOBRE 2 -->
+
+            <div class="sobre-wrapper">
+
+                <button
+                    class="sobre"
+                    data-numero="2"
+                    aria-label="Abrir sobre 2">
+
+                    <div class="sobre-parte trasera"></div>
+
+                    <div class="sobre-papel">
+
+                        <div class="contenido-papel">
+
+                            <span class="numero-carta">
+                                02
+                            </span>
+
+                            <h3>
+                                Un recuerdo
+                            </h3>
+
+                            <p>
+                                Hay momentos que quiero guardar...
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="sobre-solapa"></div>
+
+                    <div class="sobre-frente"></div>
+
+                    <div class="sello">
+                        ♥️
+                    </div>
+
+                    <span class="numero-sobre">
+                        2
+                    </span>
+
+                </button>
+
+                <p class="texto-sobre">
+                    Un recuerdo
+                </p>
+
+            </div>
+
+
+            <!-- SOBRE 3 -->
+
+            <div class="sobre-wrapper">
+
+                <button
+                    class="sobre"
+                    data-numero="3"
+                    aria-label="Abrir sobre 3">
+
+                    <div class="sobre-parte trasera"></div>
+
+                    <div class="sobre-papel">
+
+                        <div class="contenido-papel">
+
+                            <span class="numero-carta">
+                                03
+                            </span>
+
+                            <h3>
+                                Lo que admiro
+                            </h3>
+
+                            <p>
+                                Hay cosas de ti que admiro...
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="sobre-solapa"></div>
+
+                    <div class="sobre-frente"></div>
+
+                    <div class="sello">
+                        ♥️
+                    </div>
+
+                    <span class="numero-sobre">
+                        3
+                    </span>
+
+                </button>
+
+                <p class="texto-sobre">
+                    Lo que admiro
+                </p>
+
+            </div>
+
+
+            <!-- SOBRE 4 -->
+
+            <div class="sobre-wrapper">
+
+                <button
+                    class="sobre"
+                    data-numero="4"
+                    aria-label="Abrir sobre 4">
+
+                    <div class="sobre-parte trasera"></div>
+
+                    <div class="sobre-papel">
+
+                        <div class="contenido-papel">
+
+                            <span class="numero-carta">
+                                04
+                            </span>
+
+                            <h3>
+                                Lo que me haces sentir
+                            </h3>
+
+                            <p>
+                                Hay algo que siempre quiero que sepas...
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="sobre-solapa"></div>
+
+                    <div class="sobre-frente"></div>
+
+                    <div class="sello">
+                        ♥️
+                    </div>
+
+                    <span class="numero-sobre">
+                        4
+                    </span>
+
+                </button>
+
+                <p class="texto-sobre">
+                    Lo que me haces sentir
+                </p>
+
+            </div>
+
+
+            <!-- SOBRE 5 -->
+
+            <div class="sobre-wrapper">
+
+                <button
+                    class="sobre"
+                    data-numero="5"
+                    aria-label="Abrir sobre 5">
+
+                    <div class="sobre-parte trasera"></div>
+
+                    <div class="sobre-papel">
+
+                        <div class="contenido-papel">
+
+                            <span class="numero-carta">
+                                05
+                            </span>
+
+                            <h3>
+                                Lo que aprendí
+                            </h3>
+
+                            <p>
+                                Contigo también he aprendido...
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="sobre-solapa"></div>
+
+                    <div class="sobre-frente"></div>
+
+                    <div class="sello">
+                        ♥️
+                    </div>
+
+                    <span class="numero-sobre">
+                        5
+                    </span>
+
+                </button>
+
+                <p class="texto-sobre">
+                    Lo que aprendí
+                </p>
+
+            </div>
+
+
+            <!-- SOBRE 6 -->
+
+            <div class="sobre-wrapper">
+
+                <button
+                    class="sobre"
+                    data-numero="6"
+                    aria-label="Abrir sobre 6">
+
+                    <div class="sobre-parte trasera"></div>
+
+                    <div class="sobre-papel">
+
+                        <div class="contenido-papel">
+
+                            <span class="numero-carta">
+                                06
+                            </span>
+
+                            <h3>
+                                Lo que deseo
+                            </h3>
+
+                            <p>
+                                Todavía hay muchas cosas que quiero vivir...
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="sobre-solapa"></div>
+
+                    <div class="sobre-frente"></div>
+
+                    <div class="sello">
+                        ♥️
+                    </div>
+
+                    <span class="numero-sobre">
+                        6
+                    </span>
+
+                </button>
+
+                <p class="texto-sobre">
+                    Lo que deseo
+                </p>
+
+            </div>
+
+
+            <!-- SOBRE 7 -->
+
+            <div class="sobre-wrapper ultimo">
+
+                <button
+                    class="sobre"
+                    data-numero="7"
+                    aria-label="Abrir sobre 7">
+
+                    <div class="sobre-parte trasera"></div>
+
+                    <div class="sobre-papel">
+
+                        <div class="contenido-papel">
+
+                            <span class="numero-carta">
+                                07
+                            </span>
+
+                            <h3>
+                                Para ti
+                            </h3>
+
+                            <p>
+                                La última carta es solamente para ti...
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="sobre-solapa"></div>
+
+                    <div class="sobre-frente"></div>
+
+                    <div class="sello">
+                        ♥️
+                    </div>
+
+                    <span class="numero-sobre">
+                        7
+                    </span>
+
+                </button>
+
+                <p class="texto-sobre">
+                    Para ti
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================================
+         MODAL DE CARTA
+    ========================================== -->
+
+    <div id="modal" class="modal oculto">
+
+        <div class="fondo-modal"></div>
+
+        <div class="carta">
+
+            <button
+                id="cerrarCarta"
+                class="cerrar"
+                aria-label="Cerrar carta">
+                ×
+            </button>
+
+            <div class="carta-contenido">
+
+                <span id="numeroCartaModal" class="numero-carta-modal">
+                    01
+                </span>
+
+                <div class="adorno">
+                    ✦
+                </div>
+
+                <h2 id="tituloCarta">
+                    Gracias
+                </h2>
+
+                <div class="linea-carta"></div>
+
+                <p id="textoCarta">
+                </p>
+
+                <div class="firma-carta">
+                    ❤️
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         FINAL
+    ========================================== -->
+
+    <section id="final" class="pantalla final oculto">
+
+        <div class="final-contenido">
+
+            <div class="flor">
+                🌹
+            </div>
+
+            <p class="pequeno">
+                Has abierto los siete sobres.
+            </p>
+
+            <h2>
+                Y todavía me queda algo por decirte...
+            </h2>
+
+            <div class="linea"></div>
+
+            <p>
+                Siete meses.
+            </p>
+
+            <p>
+                Siete meses de recuerdos,
+                conversaciones, risas, momentos
+                tranquilos y también días que
+                no fueron tan fáciles.
+                y eso sin contar el tiempo de amigos 
+                todo fue dificil pero tengo muy presente algo 
+                y es que me seguiras gustando cada vez mas
+            </p>
+
+            <p>
+                Y entre todo eso, hay algo que
+                sigue siendo muy bonito:
+                <strong>tenerte en mi vida.</strong>
+            </p>
+
+            <p class="grande">
+                Gracias por estos 7 meses
+            </p>
+
+            <p>
+                Y si estos fueron nuestros
+                primeros siete...
+            </p>
+
+            <p class="especial">
+                todavía nos quedan muchos
+                capítulos por escribir. ❤️
+            </p>
+
+            <div class="firma-final">
+                Con cariño,<br>
+                <strong>Josue</strong>
+            </div>
+
+            <button
+                id="reiniciarBtn"
+                class="boton-secundario">
+                Volver a ver los sobres
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
